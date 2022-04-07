@@ -102,10 +102,10 @@ p {
 }
 
 .description-about-me {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1vw;
     text-align: justify;
-
+    margin: 30px;
 }
 
 .project-description {
