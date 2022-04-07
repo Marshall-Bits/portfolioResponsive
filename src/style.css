@@ -1,0 +1,279 @@
+/* 
+<Palette>
+    #090B0B
+    #616D71
+    #9EB3B3
+    #BAC9C9
+    #EBEBEB 
+*/
+
+@media only screen and (max-width: 1000px) {
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .spin {
+        animation: spinning infinite 20s linear;
+    }
+
+}
+
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+body {
+    font-family: 'Teko', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    min-height: 100vh;
+    background-color: #EBEBEB;
+}
+
+.hero {
+    background-color: #616D71;
+    color: #EBEBEB;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: #090B0B;
+    color: #EBEBEB;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 500px;
+    font-size: 30px;
+}
+
+ul.show{
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 90px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 80px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.description-about-me {
+    font-family: sans-serif;
+    font-size: 1vw;
+    text-align: justify;
+
+}
+
+.project-description {
+    text-align: justify;
+    margin: 15px;
+    font-size: 18px;
+    height: 100px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: brown;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #BAC9C9;
+    color: #090B0B;
+}
+
+.button:active {
+    background-color: #EBEBEB;
+    color: #090B0B;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 30vw;
+    max-width: 300px;
+    border-radius: 150px;
+}
+
+.project-card {
+    background-color: #BAC9C9;
+    width: 300px;
+    height: 540px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-container a {
+    margin: 10px;
+    color: #090B0B;
+    text-decoration: none;
+    width: 300px;
+    height: 540px;
+}
+
+.project-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #090B0B;
+}
+
+hr {
+    margin: 0 15px
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tech-icon {
+    height: 36px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger-icon{
+    height: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        text-decoration: none;
+        border: none;
+        background-color: transparent;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column-reverse;
+        background-color: #BAC9C9;
+        width: 100%;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        
+
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #about-me {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .information {
+        width: 90vw;
+    }
+
+    .description-about-me{
+        font-size: 4vw;
+    }
+
+
+}
