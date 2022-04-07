@@ -50,6 +50,8 @@ section {
     background-color: #616D71;
     color: #EBEBEB;
     font-size: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
@@ -106,6 +108,7 @@ p {
     font-size: 1vw;
     text-align: justify;
     margin: 30px;
+    max-width: 60vw;
 }
 
 .project-description {
@@ -150,6 +153,10 @@ p {
     padding-bottom: 200px;
 }
 
+.icons-social{
+    filter: invert(84%) sepia(54%) saturate(1%) hue-rotate(100deg) brightness(98%) contrast(100%);
+}
+
 .logo {
     height: 80px;
     margin: 30px;
@@ -159,10 +166,15 @@ p {
     margin: 20px;
 }
 
-.sub-section {
+.sub-section-about-me {
     display: flex;
-    justify-content: space-around;
-    padding: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-container {
+    display: flex;
 }
 
 .sub-section-projects {
@@ -253,26 +265,22 @@ hr {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
-        
-
     }
 
     .logo{
         display: none;
     }
 
-    #about-me {
+    .about-me-container {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
-
-    .information {
-        width: 90vw;
-    }
-
+    
     .description-about-me{
         font-size: 4vw;
+        margin: 0;
+        max-width: 80vw;
     }
 
 
