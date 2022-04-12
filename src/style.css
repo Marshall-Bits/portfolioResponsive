@@ -46,12 +46,30 @@ section {
     background-color: #EBEBEB;
 }
 
+.gif-container{
+    margin-top: 5vw;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gif {
+    width: 300px;
+}
+
 .hero {
-    background-color: #616D71;
+    background: rgb(233,52,208);
+    background: linear-gradient(0deg, rgba(233,52,208,1) 5%, rgba(159,64,162,1) 24%, rgba(2,0,36,1) 92%);
     color: #EBEBEB;
     font-size: 40px;
     display: flex;
     flex-direction: column;
+}
+
+.button {
+    cursor: pointer;
 }
 
 footer {
@@ -129,25 +147,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-}
-
-.button {
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    background-color: brown;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: #BAC9C9;
-    color: #090B0B;
-}
-
-.button:active {
-    background-color: #EBEBEB;
-    color: #090B0B;
 }
 
 .socials {
